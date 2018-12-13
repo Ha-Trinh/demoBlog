@@ -20,31 +20,37 @@
 </template>
 <script></script>
 <style lang="scss" scoped>
-$color-red: rgb(135, 41, 64);
+$color-brown: rgb(41, 29, 32);
+$color-gold: rgba(232, 189, 7, 0.7);
+$light-grey:rgb(219, 219, 219);
 #skill {
   .content {
     margin: 0;
-    background: $color-red;
+    background: $color-brown;
     .content-title {
       .content-title-details {
         position: absolute;
         bottom: 20%;
         text-align: left;
         .content-title-my {
+          margin: 0;
+          font-family: monospace;
           font-weight: bold;
           font-size: 44px;
-          color: white;
+          color: $light-grey;
         }
         .content-title-skill {
+          margin: 0;
+          font-family: monospace;
           font-weight: bold;
           font-size: 44px;
-          color: black;
+          color: $color-gold;
         }
       }
     }
     .content-picture {
       padding: 10% 0px;
-      background: grey;
+      background: $light-grey;
       img {
         height: 100%;
         width: 100%;
@@ -55,7 +61,7 @@ $color-red: rgb(135, 41, 64);
       text-align: left;
       h3,
       p {
-        color: white;
+        color: $light-grey;
       }
       img {
         width: 100%;

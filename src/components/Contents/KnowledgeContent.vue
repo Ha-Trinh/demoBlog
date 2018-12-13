@@ -6,14 +6,14 @@
     <div class="content row">
       <div class="content-skill col-md-5">
         <div class="row">
-          <img class="skill-icon" src="../../assets/computer.jpg">
+          <img class="skill-icon" src="../../assets/computer.png">
           <div class="skill-info col-md-8">
             <h6>Web Developer</h6>
             <p>Respect yourself enough to walk away from anything that no longer serves you, grows you, or makes you happy</p>
           </div>
         </div>
         <div class="row">
-          <img class="skill-icon" src="../../assets/mobile.jpg">
+          <img class="skill-icon" src="../../assets/mobile.png">
           <div class="skill-info col-md-8">
             <h6>App Developer</h6>
             <p>Respect yourself enough to walk away from anything that no longer serves you, grows you, or makes you happy</p>
@@ -61,12 +61,13 @@
 </template>
 <script></script>
 <style lang="scss" scoped>
-$color-red: rgb(135, 41, 64);
+$color-gold: rgba(232, 189, 7, 0.7);
 #knowledge {
   padding: 30px 10px;
 }
 .title {
   text-align: left;
+  padding: 50px 0;
   h3 {
     font-weight: bold;
   }
@@ -76,7 +77,7 @@ $color-red: rgb(135, 41, 64);
 
   .content-skill,
   .content-soft-skill {
-    text-align: left;
+    text-align: justify;
     .skill-icon {
       width: 80px;
       height: 80px;
@@ -95,13 +96,17 @@ $color-red: rgb(135, 41, 64);
       right: 10px;
       text-align: right;
       .content-title-my {
+        margin: 0;
+        font-family: monospace;
         font-weight: bold;
         font-size: 44px;
       }
       .content-title-services {
+        margin: 0;
+        font-family: monospace;
         font-weight: bold;
         font-size: 44px;
-        color: $color-red;
+        color: $color-gold;
       }
     }
   }
