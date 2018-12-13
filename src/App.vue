@@ -21,4 +21,19 @@ export default {
   flex-direction: column;
   min-height: 100vh;
 }
+::-webkit-input-placeholder { /* Chrome */
+  color: white;
+  opacity: 1;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: white;
+  opacity: 1;
+}
 </style>
