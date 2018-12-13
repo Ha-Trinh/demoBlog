@@ -1,23 +1,26 @@
 <template>
   <div id="homepage">
-    <Introduce></Introduce>
-    <Knowledge></Knowledge>
-    <Skill></Skill>
-    <Contact></COntact>
+    <Introduce-Content></Introduce-Content>
+    <Knowledge-Content></Knowledge-Content>
+    <Skill-Content></Skill-Content>
+    <Work-Content></Work-Content>
+    <Contact-Content></Contact-Content>
   </div>
 </template>
 <script>
-import Introduce from './Contents/IntroduceContent.vue'
-import Knowledge from './Contents/KnowledgeContent.vue'
-import Skill from './Contents/SkillContent.vue'
-import Contact from './Contents/ContactContent.vue'
+import IntroduceContent from './Contents/IntroduceContent.vue'
+import KnowledgeContent from './Contents/KnowledgeContent.vue'
+import SkillContent from './Contents/SkillContent.vue'
+import WorkContent from './Contents/WorkContent.vue'
+import ContactContent from './Contents/ContactContent.vue'
 export default {
   name: 'homepage',
   components: {
-    Introduce,
-    Knowledge,
-    Skill,
-    Contact
+    IntroduceContent,
+    KnowledgeContent,
+    SkillContent,
+    WorkContent,
+    ContactContent
   },
   data () {
     return {
