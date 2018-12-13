@@ -1,9 +1,11 @@
 import router from '../../router/'
 import Knowledge from './knowledgeContent.vue'
+import Skill from './skill.vue'
 export default {
   name: 'homepage',
   components: {
-    Knowledge
+    Knowledge,
+    Skill
   },
   data () {
     return {

@@ -51,8 +51,10 @@
         </div>
       </div>
       <div class="content-title col-md-2">
-        <p class="content-title-my">MY</p>
-        <p class="content-title-services">SERVICES</p>
+        <div class="content-title-details">
+          <p class="content-title-my">MY</p>
+          <p class="content-title-services">SERVICES</p>
+        </div>
       </div>
     </div>
   </div>
@@ -87,20 +89,20 @@ $color-red: rgb(135, 41, 64);
   }
 
   .content-title {
-    .content-title-my {
+    .content-title-details {
       position: absolute;
-      bottom: 20%;
-      right: 0;
-      font-weight: bold;
-      font-size: 44px;
-    }
-    .content-title-services {
-      position: absolute;
-      bottom: 5%;
-      right: 0;
-      font-weight: bold;
-      font-size: 44px;
-      color: $color-red;
+      bottom: 10%;
+      right: 10px;
+      text-align: right;
+      .content-title-my {
+        font-weight: bold;
+        font-size: 44px;
+      }
+      .content-title-services {
+        font-weight: bold;
+        font-size: 44px;
+        color: $color-red;
+      }
     }
   }
 }

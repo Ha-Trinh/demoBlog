@@ -10,8 +10,10 @@
 
     <div class="about-me row">
       <div class="title col-md-3">
-        <p class="title-content-about">ABOUT</p>
-        <p class="title-content-me">ME</p>
+        <div class="title-details">
+          <p class="title-content-about">ABOUT</p>
+          <p class="title-content-me">ME</p>
+        </div>
       </div>
       <div class="description col-md-5">
         <p class="description-main">Hello! I'm Ha Thai. User experience designer based in Da Nang - Viet Nam</p>
@@ -25,6 +27,8 @@
     </div>
 
     <Knowledge></Knowledge>
+
+    <Skill></Skill>
   </div>
 </template>
 <script src="./homepage.js"></script>
